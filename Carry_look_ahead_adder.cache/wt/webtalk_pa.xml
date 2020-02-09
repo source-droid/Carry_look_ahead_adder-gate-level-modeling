@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Fri Jan 31 17:47:47 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="d7f76d354b33441cafb49423b051e247" type="ProjectID"/>
+<property name="ProjectIteration" value="4" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="1" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="1" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="1" type="JavaHandler"/>
+<property name="NewHardwareDashboard" value="1" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenDesign" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="1" type="JavaHandler"/>
+<property name="ReloadDesign" value="1" type="JavaHandler"/>
+<property name="RunBitgen" value="1" type="JavaHandler"/>
+<property name="RunImplementation" value="2" type="JavaHandler"/>
+<property name="RunSynthesis" value="4" type="JavaHandler"/>
+<property name="SaveDesign" value="2" type="JavaHandler"/>
+<property name="ShowView" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="8" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="3" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="CLA_test.v, 102, 77" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 103, 437" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 114, 38" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 117, 280" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 119, 211, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 12, 350" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 12, 382" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 120, 210, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 121, 116" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 123, 315" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 124, 248" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 125, 301" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 125, 330" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 126, 230" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 126, 260" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 127, 209" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 127, 282" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 130, 145" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 132, 438" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 134, 126" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 134, 95" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 136, 208" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 136, 39" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 137, 418" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 138, 450" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 140, 344" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 140, 383" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 145, 339" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 146, 332" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 15, 366" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 151, 472" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 155, 176" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 159, 486" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 189, 335" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 19, 243" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 195, 490" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 2, 182" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 222, 153" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 23, 334" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 236, 481" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 24, 386" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 256, 484" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 257, 463, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 280, 474" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 283, 487" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 29, 346" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 3, 403" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 30, 335" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 33, 481" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 339, 489" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 34, 473" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 35, 114" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 35, 376" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 36, 235" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 37, 428" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 39, 378" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 39, 396" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 39, 410" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 40, 182" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 40, 369" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 41, 355" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 42, 217" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 42, 378" value="2" type="GuiResourceData"/>
+<property name="CLA_test.v, 42, 378, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 42, 451" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 43, 218" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 43, 365" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 45, 335" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 47, 417" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 51, 350" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 54, 418" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 55, 435" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 55, 452" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 56, 401" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 57, 334" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 63, 438" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 65, 346" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 65, 434" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 66, 464" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 69, 175" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 69, 333" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 7, 467" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 70, 321" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 72, 127" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 77, 215" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 78, 501" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 78, 75" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 81, 156" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 84, 170" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 88, 359" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 88, 448" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 89, 437" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 90, 367" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 91, 385" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 98, 169" value="1" type="GuiResourceData"/>
+<property name="CLA_test.v, 99, 79" value="1" type="GuiResourceData"/>
+<property name="CarryLookAhead.v, 108, 12" value="1" type="GuiResourceData"/>
+<property name="CarryLookAhead.v, 112, 94" value="1" type="GuiResourceData"/>
+<property name="CarryLookAhead.v, 138, 47" value="1" type="GuiResourceData"/>
+<property name="CarryLookAhead.v, 145, 85" value="1" type="GuiResourceData"/>
+<property name="CarryLookAhead.v, 259, 10, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="CarryLookAhead.v, 260, 235" value="1" type="GuiResourceData"/>
+<property name="CarryLookAhead.v, 36, 45, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="CarryLookAhead.v, 476, 346" value="1" type="GuiResourceData"/>
+<property name="CarryLookAhead.v, 48, 7" value="1" type="GuiResourceData"/>
+<property name="CarryLookAhead.v, 504, 162" value="1" type="GuiResourceData"/>
+<property name="FINISH, Finish" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, Add or create simulation sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_MESSAGES, [USF-XSim-62] 'compile' step failed with error(s" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="5" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, Open Messages View" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, CLA_test" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, Auto Connect" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, Open Hardware Manager" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="8" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, CLA_test (CLA_test.v" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 4, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 4, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 3, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 3, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="9" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Synthesis, Run Synthesis], 21, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, XADC ;   , 3, XADC, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, XADC ;   , 3, XADC, 0, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, rtl_1, launch_simulation. , [USF-XSim 62] 'compile' step failed with error(s" value="3" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, rtl_1, launch_simulation. , [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.. ], 3, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, rtl_1, launch_simulation. ], 1" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, rtl_1, launch_simulation. ], 1, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, Open target" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, Program device" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, a[0] ; IN ;  ;  ;  ;  ; V10 ; true ; 14 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ;  ; N/A, 0, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, a[0] ; IN ;  ;  ;  ;  ; V10 ; true ; 14 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ;  ; N/A, 0, IN, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, a[0] ; IN ;  ;  ;  ;  ; V10 ; true ; 14 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ;  ; N/A, 0, a[0], 0" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, a[1] ; IN ;  ;  ;  ;  ; U11 ; true ; 14 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ;  ; N/A, 1, a[1], 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, a[2] ; IN ;  ;  ;  ;  ; U12 ; true ; 14 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ;  ; N/A, 2, a[2], 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, b[0] ; IN ;  ;  ;  ;  ; T13 ; true ; 14 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ;  ; N/A, 4, b[0], 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, b[3] ; IN ;  ;  ;  ;  ; T8 ; true ; 34 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ;  ; N/A, 7, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, c_in ; IN ;  ;  ;  ;  ; R13 ; true ; 14 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ;  ; N/A, 8, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, c_in ; IN ;  ;  ;  ;  ; R13 ; true ; 14 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ;  ; N/A, 8, IN, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, c_in ; IN ;  ;  ;  ;  ; R13 ; true ; 14 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ;  ; N/A, 8, c_in, 0" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, c_out ; OUT ;  ;  ;  ;  ; U17 ; true ; 14 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A, 9, OUT, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, sum[0] ; OUT ;  ;  ;  ;  ; H17 ; true ; 15 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A, 10, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, sum[0] ; OUT ;  ;  ;  ;  ; H17 ; true ; 15 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A, 10, sum[0], 0" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTablePanel_SIGNAL_TABLE, sum[1] ; OUT ;  ;  ;  ;  ; K15 ; true ; 15 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ;  ; N/A, 11, sum[1], 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, g0 ; X ; Logic, 6, g0, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, p0 ; X ; Logic, 5, p0, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="1" type="GuiResourceData"/>
+<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="4" type="GuiResourceData"/>
+<property name="RDIResource.GraphicalView_ZOOM_FIT, Waveform Viewer_zoom_fit" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 111, 188" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 125, 107" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 125, 438" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 134, 231" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 142, 284" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 181, 56" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 289, 50" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 293, 57" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 453, 60" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 58, 38" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 734, 65" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 752, 59" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 84, -39" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 846, 59" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 88, 473" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 1" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, a[3:0]], 2" value="2" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, b[3:0]], 3" value="2" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, c_in], 4, false" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_COPY, Copy" value="3" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_PASTE, Paste" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_SAVE_FILE, (String" value="2" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="5" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="4" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
